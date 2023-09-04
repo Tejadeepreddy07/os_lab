@@ -12,7 +12,7 @@ int main()
 		printf("\n");
 	}
 	wt[0]=wtavg=0;
-	tat[0]=tatavg=bu[i];
+	tat[0]=tatavg=bu[0];
 	for(i=1;i<n;i++)
 	{
 		wt[i]=wt[i-1]+bu[i-1];
